@@ -1,0 +1,13 @@
+{
+  "name": "enterprise-hub-gateway",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "API gateway + realtime (WebSocket) + video signaling + AI gateway. Zero runtime dependencies (Node >= 20).",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test \"test/*.test.js\""
+  }
+}
